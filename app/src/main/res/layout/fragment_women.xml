@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.WomenFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:orientation="vertical"
+       >
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recView_home_women_fragment"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           />
+
+       <LinearLayout
+           android:id="@+id/btnSeeMore_women_fragment"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp"
+           android:layout_marginTop="20dp"
+           android:layout_gravity="end"
+           android:gravity="end"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="5dp"
+               android:text="See More"
+               android:fontFamily="@font/clear_sans_medium"
+               android:textColor="@color/blue_light"
+               android:textSize="18sp"
+               />
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginEnd="5dp"
+               android:src="@drawable/ic_round_arrow_right_alt_24"
+               />
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</FrameLayout>
